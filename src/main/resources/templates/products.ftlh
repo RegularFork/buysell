@@ -12,7 +12,7 @@
 </form>
 <#list products as product>
     <div>
-        <p><b></b>${product.title}</b> ${product.price} | <a href="/product/${product.id}"> Подробная инфа...</a> </p>
+        <p><b>${product.title}</b> стоит аж ${product.price} денег | <a href="/product/${product.id}"> Подробная инфа...</a> </p>
     </div>
     <#else>
     <h3>Тут больше нихрена нет</h3>

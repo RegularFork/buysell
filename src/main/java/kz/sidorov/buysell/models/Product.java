@@ -20,7 +20,7 @@ public class Product {
     private String title;
     @Column(name = "description", columnDefinition = "text")
     private String description;
-    @Column(name = "iprice")
+    @Column(name = "price")
     private int price;
     @Column(name = "city")
     private String city;

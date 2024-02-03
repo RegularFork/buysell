@@ -12,7 +12,7 @@
 <b>Город где лежит хреновина: </b>${product.city}<br>
 <b>Имя того, кто эту залипуху продаёт: </b>${product.author}<br>
 <hr>
-<h3>Добавить ещё одну хреновину</h3>
+
 <form action="/product/delete/${product.id}" method="post">
     <input type="submit" value="Удалить объяву"/>
 </form>
